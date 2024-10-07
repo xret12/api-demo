@@ -72,7 +72,7 @@ The application in `server_token_auth.py` uses JWT (JSON Web Tokens) for authent
    pip install -r requirements.txt
    ```
 
-2. **Set up environment variables** for `server_basic_auth.py` and `server_token_auth.py`:
+2. **Set up environment variables** for `server_basic_auth.py` and `server_token_auth.py` by creating a `.env` file with the following contents:
    ```bash
    APP_USERNAME="your_username"
    APP_PASSWORD="your_password"
